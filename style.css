@@ -22,7 +22,7 @@ header {
 }
 
 
-/********* Nav Session started ***********/
+/*********** Nav Session started ***********/
 
 nav {
     background: transparent;
@@ -555,6 +555,8 @@ a:hover {
 }
 
 .panel {
+    width: 100%;
+    max-width: 535px;
     padding: 0 18px;
     display: none;
     background-color: white;
