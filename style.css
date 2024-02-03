@@ -806,7 +806,7 @@ a:hover {
         min-width: 915px;
     }
     .cardContainer .card {
-        /* min-width: 300px; */
+        min-width: 300px;
     }
     .container-5 {
         padding: 80px 105px;
