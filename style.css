@@ -22,7 +22,7 @@ header {
 }
 
 
-/*********** Nav Session started ***********/
+/********* Nav Session started ***********/
 
 nav {
     background: transparent;
@@ -96,7 +96,7 @@ a:hover {
         width: 95%;
     }
     header {
-        min-width: 915px;
+        min-width: 800px;
     }
     .logo {
         margin: 15px;
@@ -107,13 +107,13 @@ a:hover {
     nav ul {
         position: absolute;
         width: 100%;
-        min-width: 915px;
-        height: 50vh;
+        min-width: 800px;
+        height: 70vh;
         background-color: rgba(44, 62, 80, 0.7);
         -webkit-backdrop-filter: blur(5px);
         backdrop-filter: blur(5px);
         top: 123px;
-        left: -260%;
+        left: -100%;
         text-align: center;
         transition: all 0.5s;
         z-index: 100;
@@ -271,7 +271,7 @@ a:hover {
 
 .services-section .s-wrapper .service-content h2 {
     width: 100%;
-    max-width: 915px;
+    max-width: 800px;
     font-size: 45px;
     font-weight: 400;
     text-align: center;
@@ -288,7 +288,7 @@ a:hover {
 
 @media (max-width:858px) {
     .services-section {
-        min-width: 915px;
+        min-width: 800px;
     }
     .service-content p {
         font-size: 15px;
@@ -429,7 +429,7 @@ a:hover {
 
 @media ( max-width: 858px) {
     .container3 {
-        min-width: 915px;
+        min-width: 800px;
         padding: 20px;
     }
     .container3 .container {
@@ -548,15 +548,13 @@ a:hover {
     color: #000000;
 }
 
-.accordion.active-accordion,
+.active,
 .accordion:hover {
     background-color: #0A2640;
     color: #FFFFFF;
 }
 
 .panel {
-    width: 100%;
-    max-width: 535px;
     padding: 0 18px;
     display: none;
     background-color: white;
@@ -654,7 +652,7 @@ a:hover {
 
 .text {
     width: 100%;
-    max-width: 915px;
+    max-width: 800px;
     font-weight: 400;
     font-size: 48px;
     color: #ffffff;
@@ -667,7 +665,6 @@ a:hover {
     display: flex;
     justify-content: space-between;
     gap: 20px;
-    position: relative;
 }
 
 .cardContainer .card {
@@ -718,7 +715,7 @@ a:hover {
     font-size: 85px !important;
     position: absolute;
     top: -290px;
-    left: 5370% !important;
+    left: 5030% !important;
     color: rgba(255, 255, 255, 0.9) !important;
 }
 
@@ -727,7 +724,7 @@ a:hover {
     font-size: 85px !important;
     position: absolute;
     top: -290px;
-    right: 300% !important;
+    right: 200% !important;
     color: rgba(255, 255, 255, 0.9) !important;
 }
 
@@ -788,27 +785,16 @@ a:hover {
         right: 200% !important;
     }
 }
-@media (max-width:415px){
-    .slick-prev:before
-    {
-        top: -385px;
-        left: 3020% !important;
-    }
-    .slick-next:before {
-        top: -385px;
-        right: 200% !important;
-    }
-}
 
 
 /* ********************* */
 
 @media (max-width: 858px) {
     .container-5 {
-        min-width: 915px;
+        min-width: 800px;
     }
     .cardContainer .card {
-        min-width: 450px;
+        /* min-width: 300px; */
     }
     .container-5 {
         padding: 80px 105px;
@@ -873,7 +859,6 @@ a:hover {
     grid-column-start: 1;
     grid-column-end: 3;
     justify-self: center;
-    user-select: none;
 }
 
 .con-6 .con-6-wrapper .img img {
@@ -923,12 +908,12 @@ a:hover {
     padding: 15px;
     font-weight: 300;
     font-size: 18px;
-    transition: 0.5s ease;
+    transition: 1s;
 }
 
 @media ( max-width: 858px) {
     .con-6 {
-        min-width: 915px;
+        min-width: 800px;
     }
     .con-6 .con-6-wrapper {
         min-width: 650px;
@@ -1116,7 +1101,7 @@ a:hover {
 
 .enterprise-session .container p {
     width: 100%;
-    max-width: 915px;
+    max-width: 800px;
     font-size: 48px;
     font-weight: 400;
     text-align: center;
@@ -1172,7 +1157,7 @@ a:hover {
 
 @media ( max-width: 858px) {
     .enterprise-session {
-        min-width: 915px;
+        min-width: 800px;
         padding: 20px;
         margin-top: -40px;
     }
@@ -1340,9 +1325,9 @@ a:hover {
 
 @media ( max-width: 858px) {
     .footer {
-        min-width: 915px;
+        min-width: 800px;
         margin-top: -105px;
-        padding-bottom: 915px;
+        padding-bottom: 800px;
     }
 }
 
