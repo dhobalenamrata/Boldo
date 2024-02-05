@@ -548,7 +548,7 @@ a:hover {
     color: #000000;
 }
 
-.active,
+.accordion.active,
 .accordion:hover {
     background-color: #0A2640;
     color: #FFFFFF;
