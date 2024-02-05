@@ -1080,7 +1080,7 @@ a:hover {
 
 @media (max-width: 858px) {
     .blog-section {
-        min-width: 915px;
+        min-width: 800px;
     }
 }
 
