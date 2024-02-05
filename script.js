@@ -3,7 +3,7 @@ var i;
 
 for (i = 0; i < acc.length; i++) {
     acc[i].addEventListener("click", function() {
-        this.classList.toggle("active-accordion");
+        this.classList.toggle("active");
         var panel = this.nextElementSibling;
         if (panel.style.display === "block") {
             panel.style.display = "none";
@@ -57,10 +57,10 @@ for (i = 0; i < acc.length; i++) {
 
     // accordion 2 started here
     var acc2 = document.getElementsByClassName("accordion2");
-    var i2;
+    var i;
 
-    for (i2 = 0; i2 < acc2.length; i2++) {
-        acc2[i2].addEventListener("click", function() {
+    for (i = 0; i < acc2.length; i++) {
+        acc2[i].addEventListener("click", function() {
             this.classList.toggle("newActive");
             var panel2 = this.nextElementSibling;
             if (panel2.style.display === "block") {
@@ -85,4 +85,4 @@ $(document).ready(function() {
         }
     });
 
-});
+})
