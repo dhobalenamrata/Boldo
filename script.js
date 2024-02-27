@@ -57,10 +57,10 @@ for (i = 0; i < acc.length; i++) {
 
     // accordion 2 started here
     var acc2 = document.getElementsByClassName("accordion2");
-    var i;
+    var i2;
 
-    for (i = 0; i < acc2.length; i++) {
-        acc2[i].addEventListener("click", function() {
+    for (i2 = 0; i2 < acc2.length; i2++) {
+        acc2[i2].addEventListener("click", function() {
             this.classList.toggle("newActive");
             var panel2 = this.nextElementSibling;
             if (panel2.style.display === "block") {
