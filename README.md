@@ -1,4 +1,4 @@
-# Boldo Template
+# Boldo Templates
 
 Link : https://dhobalenamrata.github.io/Boldo/
 
